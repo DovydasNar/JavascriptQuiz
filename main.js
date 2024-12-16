@@ -1,4 +1,4 @@
-import { questions } from "./questions";
+import { questions } from "./questions.js";
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -12,7 +12,7 @@ import {
   finalScore,
   quizContainer,
   restartButton,
-} from "./domElements";
+} from "./domElements.js";
 
 function loadQuestions() {
   const CurrentQuestion = questions[currentQuestionIndex];
