@@ -4,6 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Javascript Quiz</h1>
+    </header>
+    <div id="main">
+      <div id="quiz-container">
+        <h2 id="question">Your question will be displayed here</h2>
+        <ul id="choices"></ul>
+      </div>
+      <div id="controls">
+        <button id="next" disabled>Next</button>
+      </div>
+      <div id="progress">
+        <p id="progress-result">Question 1 of 10</p>
+      </div>
+    </div>
+    <div id="results" class="hidden">
+      <h2>Your result</h2>
+      <p id="score"></p>
+      <button id="restart">Restart</button>
+    </div>
+    <footer><p>Copyrights by Dovydas 2024</p></footer>
+  </body>
 </html>
