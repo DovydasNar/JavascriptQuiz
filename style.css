@@ -5,7 +5,7 @@ body {
   background-color: rgb(221, 249, 249);
   color: rgb(190, 188, 188);
   background-image: url("https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_1280.jpg");
-  background-size: cover;
+  background-size: 120%;
 }
 header {
   display: flex;
@@ -15,7 +15,8 @@ header {
   margin: 5px;
   border-radius: 5px;
   box-shadow: 0 2px 2px rgb(167, 167, 167);
-  background-color: rgb(71, 72, 73);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.376), rgba(0, 0, 0, 0.204)),
+    url("https://cdn.pixabay.com/photo/2017/07/10/23/43/question-mark-2492009_1280.jpg");
 }
 
 #main {
